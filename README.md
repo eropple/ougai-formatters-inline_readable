@@ -1,9 +1,9 @@
-# Ougai::Inline::Readable #
+# Ougai::Formatters::InlineReadable #
 
 [Ougai][] is an amazing structured logger for Ruby. But its `Readable` formatter,
 best used in development, is a little annoying because it spams out additional
-structured data onto many lines. `Ougai::Inline::Readable` instead uses `#inspect`
-to put your structured data on a single line.
+structured data onto many lines. `Ougai::Formatters::InlineReadable` instead uses
+`#inspect` to put your structured data on a single line.
 
 ## Usage ##
 ```ruby
